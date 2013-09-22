@@ -1,4 +1,4 @@
-PRODUCT_COPY_FILES += vendor/aetherar/prebuilt/CameraWallpaper.apk:system/app/CameraWallpaper.apk
+PRODUCT_COPY_FILES += vendor/aetherar/prebuilt/CameraWallpaper.apk:data/app/CameraWallpaper.apk
 
 PRODUCT_PACKAGES += 
 
