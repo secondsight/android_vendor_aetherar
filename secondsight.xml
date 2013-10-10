@@ -15,7 +15,7 @@
 
   <!-- override packages/apps/Launcher2, if not confilict, we can reserve it -->
   <remove-project name="CyanogenMod/android_packages_apps_Launcher2" />
-  <project path="packages/apps/aetherAR-launcher" name="secondsight/aetherAR-launcher" remote="private" revision="cm-10.2" />
+  <project path="packages/apps/AetherARLauncher" name="secondsight/aetherAR-launcher" remote="private" revision="cm-10.2" />
 
   <!-- override device/samsung/jfltexx, pulic repo -->
   <remove-project name="CyanogenMod/android_device_samsung_jfltexx" />
