@@ -23,6 +23,6 @@
 
   <!-- new repos for secondsight -->
   <!-- vendor/secondsight -->
-  <project path="vendor/secondsight" name="secondsight/android_vendor_aetherar" remote="private" revision="master" />
+  <project path="vendor/secondsight" name="secondsight/android_vendor_aetherar" remote="private" revision="cm-10.2" />
 
 </manifest>
