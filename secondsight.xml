@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- overrides -->
+  <!-- override frameworks/base -->
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="secondsight/android_frameworks_base" remote="private" revision="cm-10.2" />
+
+  <!-- override frameworks/native -->
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <project path="frameworks/native" name="secondsight/android_frameworks_native" remote="private" revision="cm-10.2" />
+
+  <!-- override packages/apps/Settings -->
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="secondsight/android_packages_apps_Settings" remote="private" revision="cm-10.2" />
+
+  <!-- override packages/apps/Launcher2, if not confilict, we can reserve it -->
+  <remove-project name="CyanogenMod/android_packages_apps_Launcher2" />
+  <project path="packages/apps/aetherAR-launcher" name="secondsight/aetherAR-launcher" remote="private" revision="cm-10.2" />
+
+  <!-- override device/samsung/jfltexx, pulic repo -->
+  <remove-project name="CyanogenMod/android_device_samsung_jfltexx" />
+  <project path="device/samsung/jfltexx" name="vmlinz/android_device_samsung_jfltexx" remote="github" revision="cm-10.2" />
+
+  <!-- new repos for secondsight -->
+  <!-- vendor/secondsight -->
+  <project path="vendor/secondsight" name="secondsight/android_vendor_aetherar" remote="private" revision="master" />
+
+</manifest>
